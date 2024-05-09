@@ -35,7 +35,7 @@ public class OverrideOmapiSEAccess implements IXposedHookLoadPackage {
 
 	//
 	// =========================================================
-	// Hardcoded package name goes here:
+	// Hardcoded package name goes here: au.com.bellsolutions.android.hce
 	// =========================================================
 	//
 	/**
@@ -44,7 +44,7 @@ public class OverrideOmapiSEAccess implements IXposedHookLoadPackage {
 	 * ACCESS TO THE SECURE ELEMENT!<br>
 	 * TODO: make configurable via GUI
 	 */
-	private final static String TARGET_APPLICATION_PACKAGE_NAME = "com.example.omapi.iwillhavefullaccess";
+	private final static String TARGET_APPLICATION_PACKAGE_NAME = "au.com.bellsolutions.android.hce";
 	//
 	// =========================================================
 	// =========================================================
